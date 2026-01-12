@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohamad Hamdan — Web Developer</title>
+  <meta name="description" content="Front-end developer — HTML, CSS, JavaScript. Portfolio of projects." />
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">Mohamad</a>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi — I build clean, fast websites.</h1>
+        <p>HTML · CSS · JavaScript — Freelance-ready projects for small businesses.</p>
+        <a class="btn" href="#projects">See my work</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <!-- Project card example -->
+        <article class="card">
+          <img src="assets/project1.png" alt="Project 1 screenshot">
+          <div class="card-body">
+            <h3>Business Landing Page</h3>
+            <p>Responsive landing page for a local Gym — HTML/CSS, responsive, Contact us Buttons</p>
+            <a class="link" href="projects/CapitalFitness/index.html">View</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/project2.png" alt="Project 2 screenshot">
+          <div class="card-body">
+            <h3>Interactive App</h3>
+            <p>JS-heavy app: weather/movie/TODO showcasing DOM and API usage.</p>
+            <a class="link" href="projects/project2.html">View</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/project3.png" alt="Project 3 screenshot">
+          <div class="card-body">
+            <h3>Business Template Kit</h3>
+            <p>Landing + services + contact templates for fast delivery to clients.</p>
+            <a class="link" href="projects/project3.html">View</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About Me</h2>
+      <p>I’m an intermediate front-end developer focused on clean UI and performance. I build fast landing pages, small business sites, and interactive widgets.</p>
+      <ul class="skills">
+        <li>HTML & CSS (Flexbox, Grid)</li>
+        <li>JavaScript (DOM, Fetch, localStorage)</li>
+        <li>Responsive & Accessible UI</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit" class="btn">Send message</button>
+        <p id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Mohamad — Built with HTML/CSS/JS</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
