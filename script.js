@@ -12,4 +12,4 @@ form.addEventListener('submit', async (e) => {
 });
 
 // Footer year
-document.querySelector('.site-footer .container').innerHTML = `© ${new Date().getFullYear()} Mohamad — Built with HTML/CSS/JS`;
+document.querySelector('.site-footer .container').innerHTML = `© ${new Date().getFullYear()} Mohamad Hamdan`;
